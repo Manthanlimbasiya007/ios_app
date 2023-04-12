@@ -33,7 +33,7 @@ class _fourthscreenState extends State<fourthscreen> {
                   CircleAvatar(
                     radius: 25,
                     backgroundColor: Colors.white,
-                    backgroundImage: AssetImage(""),
+                    backgroundImage: AssetImage("assets/images/bg.jpg"),
                   ),
                   SizedBox(width: 10,),
                 ],
@@ -55,7 +55,7 @@ class _fourthscreenState extends State<fourthscreen> {
                   borderRadius: BorderRadius.circular(10),
                 ),
                 child: ClipRRect(borderRadius: BorderRadius.circular(10),
-                    child: Image.asset("", fit: BoxFit.cover)),
+                    child: Image.asset("assets/images/bg.jpg", fit: BoxFit.cover)),
               ),
               SizedBox(height: 10,),
               CupertinoListTile(title: Text("Discover More Game",

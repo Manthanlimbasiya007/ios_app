@@ -15,7 +15,7 @@ void main()
         create: (context) => ThirdProvider(),
       )
     ],
-    child: MaterialApp(
+    child: CupertinoApp(
       debugShowCheckedModeBanner: false,
       routes: {
         '/': (context) => thirdscreen(),

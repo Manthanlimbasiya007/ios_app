@@ -41,7 +41,7 @@ class _secondscreenState extends State<secondscreen> {
                   CircleAvatar(
                     radius: 25,
                     backgroundColor: Colors.white,
-                    backgroundImage: AssetImage(""),
+                    backgroundImage: AssetImage("assets/images/am.png"),
                   ),
                   SizedBox(
                     width: 10,
@@ -77,7 +77,7 @@ class _secondscreenState extends State<secondscreen> {
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(10),
                   child: Image.asset(
-                    "",
+                    "assets/images/bg.jpeg",
                     fit: BoxFit.cover,
                   ),
                 ),

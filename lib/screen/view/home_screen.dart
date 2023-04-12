@@ -21,7 +21,7 @@ class _homescreenState extends State<homescreen> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text("Sunday April 12",
-                  style: TextStyle(color: Colors.grey, fontSize: 15)),
+                  style: TextStyle(color: Colors.black, fontSize: 15)),
               SizedBox(
                 height: 5,
               ),
@@ -36,7 +36,7 @@ class _homescreenState extends State<homescreen> {
                   CircleAvatar(
                     radius: 25,
                     backgroundColor: Colors.white,
-                    backgroundImage: AssetImage(""),
+                    backgroundImage: AssetImage("assets/images/am.png"),
                   ),
                   SizedBox(
                     width: 10,
@@ -84,10 +84,10 @@ class _homescreenState extends State<homescreen> {
           ),
         ),
         Transform.translate(offset: Offset(30,25),
-          child: Text("Apple Music",style: TextStyle(color: Colors.white,fontSize: 12),),
+          child: Text("Apple Music",style: TextStyle(color: Colors.black,fontSize: 12),),
         ),
         Transform.translate(offset: Offset(30,50),
-          child: Text("Best Quality Music IOS",style: TextStyle(color: Colors.white,fontSize: 18,fontWeight: FontWeight.bold),),
+          child: Text("Best Quality Music IOS",style: TextStyle(color: Colors.black,fontSize: 18,fontWeight: FontWeight.bold),),
         ),
       ],
     );
